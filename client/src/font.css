@@ -1,0 +1,112 @@
+/* Load in your font */
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+.select-box--container {
+  /* height: 35px; */
+  background-color: #3f1e7e;
+  /* width: 15vmin; */
+  /* margin: 0; */
+  /* padding: 0; */
+  border-radius: 1vmin;
+  box-shadow: 0px 0px 4px 4px rgba(255, 255, 255, 0.1);
+  user-select: none;
+  display: flex;
+  padding: 8px;
+  min-width: 120px;
+  justify-content: space-between;
+}
+
+.select-box--container--close2 {
+  /* height: 30px; */
+  background-color: #3f1e7e;
+  /* width: 15vmin; */
+  margin: 0;
+  padding: 0;
+  /* border-radius: 1vmin; */
+  user-select: none;
+}
+
+.select-box--container--open {
+  position: relative;
+  display: inline;
+  /* border-radius: 1vmin; */
+  /* box-shadow: 0px 0px 4px 4px rgba(255, 255, 255, 0.1); */
+  /* height: 25.5vmin; */
+  /* background-color: #3f1e7e; */
+  /* width: 15vmin; */
+  /* margin: 0; */
+  /* padding: 0; */
+  /* user-select: none; */
+}
+.select-box--container--close {
+  /* position: fixed; */
+  user-select: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.select-box--box {
+  /* width: 200px; */
+  /* position: absolute; */
+  /* left: 15px; */
+  user-select: none;
+}
+
+.select-box--selected-item {
+  display: inline-block;
+  /* height: 100%; */
+  /* width: 100%; */
+  /* padding-top: 0.31vmin; */
+  /* padding-left: 1vmin; */
+  /* font-size: 2.3vmin; */
+  vertical-align: left;
+  color: white;
+  font-family: Lato;
+  user-select: none;
+}
+
+.select-box--items {
+  position: absolute;
+  background-color: #3f1e7e;
+  border-radius: 6px;
+  min-width: 120px;
+  z-index: 100;
+}
+.select-box--items div {
+  padding: 8px;
+  color: white;
+  font-family: Lato;
+  user-select: none;
+}
+
+.select-box--arrow {
+  
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* position: absolute; */
+  /* right: 0; */
+  /* top: 1.4vmin; */
+  user-select: none;
+  margin-left: 8px;
+}
+.select-box--arrow > img {
+  width: 16px;
+  /* height: 16px; */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+.chart-container {
+  height: 500px;
+}
+fieldset.MuiOutlinedInput-notchedOutline {
+  border: none;
+}

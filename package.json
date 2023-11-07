@@ -1,0 +1,21 @@
+{
+  "name": "vibe-values",
+  "version": "1.0.0",
+  "description": "crypto value calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api": "npm start -prefix server",
+    "client": "npm run client -prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adonisdev923/vibe-values.git"
+  },
+  "keywords": [
+    "crypto",
+    "reactjs"
+  ],
+  "author": "adonisdev923",
+  "license": "ISC"
+}
